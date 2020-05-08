@@ -28,6 +28,6 @@ fetchMyIP((error, ip) => {
         console.log(`Next pass at ${passTimes}(Pacific Daylight Time) for ${duration} seconds!`);
       });
       
-    })
-  })
+    });
+  });
 });
